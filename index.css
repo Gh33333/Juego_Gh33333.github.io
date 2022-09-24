@@ -1,0 +1,71 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(src/fonfo.png);
+    background-repeat: none;
+}
+ /*CSS header*/
+.caja{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+.caja img{
+    margin: 70px;
+}
+
+/*CSS body*/
+.home{
+    width: 1500px;
+    height: 980px;
+    float: right;
+    position: absolute;
+    right: 200px;
+}
+
+nav{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:640px) {
+
+.caja,.principal,.mapa,.contenido-dif,.video,.lista-dif{
+    width: auto;
+}
+
+h1{
+    width: auto;
+    text-align: center;
+}
+nav{
+    position: static;
+    text-align: center;
+}
+.lista-dif{
+    width: 100%;
+}
+.imagen-diferenciales{
+    margin-top: 20px;
+    width: 100%;
+}
+
+}

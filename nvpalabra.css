@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*configuraciones para resoluciones menores*/
+
+@media screen and (max-width:640px) {
+
+    .caja,.principal.enviar{
+        width: auto;
+    }
+    
+    h1{
+        width: auto;
+        text-align: center;
+    }
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    }
