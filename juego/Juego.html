@@ -1,0 +1,45 @@
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>juego alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="juego.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+            </style>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1>
+                    <a href="/index.html">
+                        <img src="src/logo.png" alt="a">
+                    </a>
+                </h1>
+            </div>   
+        </header>
+
+        <section>
+            <div class="contenido">
+                <canvas id="canvas"></canvas>
+                <div id="palabra"></div>
+                <div id="letras" class="letras hide"></div>
+                <div id="opciones-contenido"></div>
+                <button id="desistir">Desistir</button>
+                <div id="popup" class="dpopup hide">
+                  <div id="resultado"></div>
+                  <button id="nuevo_juego">Jugar de nuevo</button>
+                </div>
+              </div>
+              
+        </section>
+
+    </body>
+
+</html>
+<script src="./juego.js"></script>
+
